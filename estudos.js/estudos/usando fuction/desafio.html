@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sistema de naciolaidades</title>
+</head>
+<body>
+    <h1>teste de nacionalidade</h1>
+    coloque seu nome: <input type="text" name="txtnom" id="txtnom">
+    coloque seus pais: <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="enviar" onclick="verificar()">
+    </div>
+
+    <script>
+       function verificar() {
+           var txtn = window.document.getElementById('txtnom').value;
+           var txtna = window.document.getElementById('txtnac').value.trim();
+
+           var res = document.getElementById('res')
+           res.innerHTML = `seu nome é ${txtn} vivendo no pais ${txtna} `
+
+            if (txtna.toLowerCase() == 'brasil') {
+               res.innerHTML += `voce é brasileiro`;} 
+               else{
+               res.innerHTML += `voce é estrangeiro `;
+           }
+            
+       }
+    </script>
+</body>
+</html>

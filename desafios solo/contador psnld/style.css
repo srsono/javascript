@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    background-color: black;
+    color: rgb(255, 255, 255); 
+}
+
+h1{
+    font-family: "Nabla", system-ui;
+}
+
+#resultado{
+    font-family: "Nabla", system-ui;
+    font-size: 80px;
+    color: red;
+    background-color: black;
+    padding: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 0px;
+}
+
+.formulario{
+    margin-bottom: 40px;
+    
+}
+
+#inicio{
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#fim{
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#passo{
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+button{
+    border-radius: 50px;
+    color: white;
+    background-color: rgba(202, 9, 9, 0.703);
+}
